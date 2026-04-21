@@ -656,3 +656,183 @@ h1, h2, h3, h4, h5, h6 {
         border-top: 2px dashed var(--brutal-black);
     }
 }
+
+/* === CTA SHOWCASE BANNER === */
+.cta-showcase {
+    background: var(--brutal-yellow);
+    border: var(--brutal-border-thick);
+    box-shadow: var(--brutal-shadow);
+    margin: 2rem 0;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-showcase:hover {
+    box-shadow: var(--brutal-shadow-hover);
+    transform: translate(3px, 3px);
+}
+
+/* Decorative pattern */
+.cta-showcase::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background: repeating-linear-gradient(
+        45deg,
+        var(--brutal-black),
+        var(--brutal-black) 2px,
+        transparent 2px,
+        transparent 12px
+    );
+    opacity: 0.05;
+}
+
+.cta-showcase-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2.5rem;
+    gap: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.cta-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+.cta-icon {
+    font-size: 3.5rem;
+    line-height: 1;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.cta-content {
+    flex: 1;
+}
+
+.cta-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--brutal-black);
+    margin: 0 0 0.3rem 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.cta-desc {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--brutal-black);
+    color: var(--brutal-yellow);
+    font-family: 'Space Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1.2rem 2.5rem;
+    border: 3px solid var(--brutal-black);
+    box-shadow: 5px 5px 0px var(--brutal-white);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.15s ease;
+    position: relative;
+}
+
+.cta-button:hover {
+    background: var(--brutal-white);
+    color: var(--brutal-black);
+    box-shadow: 2px 2px 0px var(--brutal-black);
+    transform: translate(3px, 3px);
+}
+
+.cta-button i {
+    font-size: 1.3rem;
+    transition: transform 0.2s ease;
+}
+
+.cta-button:hover i {
+    transform: translate(3px, -3px);
+}
+
+.cta-showcase::after {
+    content: '▶ ▶ ▶';
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--brutal-black);
+    opacity: 0.3;
+    letter-spacing: 8px;
+}
+
+@media (max-width: 992px) {
+    .cta-showcase-inner {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .cta-left {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .cta-title {
+        font-size: 1.4rem;
+    }
+    
+    .cta-button {
+        width: 100%;
+        justify-content: center;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .cta-showcase-inner {
+        padding: 1.2rem;
+    }
+    
+    .cta-icon {
+        font-size: 2.5rem;
+    }
+    
+    .cta-title {
+        font-size: 1.2rem;
+    }
+    
+    .cta-desc {
+        font-size: 0.9rem;
+    }
+    
+    .cta-button {
+        font-size: 0.95rem;
+        padding: 0.9rem 1.5rem;
+    }
+}
