@@ -6,6 +6,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (WINGS)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "VueJS", "MySQL"],
             impact: "Track truck positions via custom maps, reduce paper usage 80%, auto Telegram alerts"
         },
@@ -15,6 +16,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (WINGS)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Task assignment, performance tracking, transparent ticket workflow"
         },
@@ -24,7 +26,8 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (EXP)",
             companyCode: "WINGS",
             type: "Web",
-            tech: ["Bootstrap", "jQuery", "Laravel", "MySQL", "Intellitrac API"],
+            category: "Production",
+            tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "24h flour retrieval optimization, centralized monitoring, live truck tracking"
         },
         {
@@ -33,7 +36,8 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (Engineering)",
             companyCode: "WINGS",
             type: "Web",
-            tech: ["Bootstrap", "jQuery", "Laravel", "MySQL", "IndexedDB"],
+            category: "Production",
+            tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Early overheating detection, automated maintenance scheduling, offline support"
         },
         {
@@ -42,6 +46,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (HR)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Streamlined employee onboarding, auto facility calculation, calendar dashboard"
         },
@@ -51,6 +56,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (Lab)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Traceable sample flow, rigorous approval process, real-time notifications"
         },
@@ -60,6 +66,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (Noodle)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Equipment tracking, digital approval workflow, production trend analysis"
         },
@@ -69,6 +76,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (All Dept)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Systematic non-conformity fixing, risk identification, audit lifecycle management"
         },
@@ -78,6 +86,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (Lab QA)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Faster DA/PA turnaround, real-time task visibility, authorized verification flow"
         },
@@ -87,6 +96,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (All Dept)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Digital audit trail, QR/ID scanning system, structured document tracking"
         },
@@ -96,6 +106,7 @@ $(document).ready(function() {
             company: "PT Prakarsa Alam Segar (Purchasing)",
             companyCode: "WINGS",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "jQuery", "Laravel", "MySQL"],
             impact: "Digital approval workflow, real-time BA statistics, template system"
         },
@@ -105,6 +116,7 @@ $(document).ready(function() {
             company: "EAJ Core Team (GPL Sawit)",
             companyCode: "EAJ",
             type: "Desktop",
+            category: "Production",
             tech: [".NET", "MSSQL"],
             impact: "Accurate transaction sync, real-time data transparency, customizable integration"
         },
@@ -114,64 +126,110 @@ $(document).ready(function() {
             company: "EAJ Core Team (Internal)",
             companyCode: "EAJ",
             type: "Web",
+            category: "Experimental",
             tech: ["Bootstrap", "ExpressJS"],
             impact: "90% faster B2B lead gathering, competitor monitoring, clean data export"
         },
         {
             id: 14,
+            name: "DISC Test",
+            company: "EAJ Core Team (Internal)",
+            companyCode: "EAJ",
+            type: "Web",
+            category: "Experimental",
+            tech: ["Bootstrap", "VueJS", "ExpressJS", "Sequelize", "MySQL"],
+            impact: "Automated psychological profiling with real-time analytics and centralized administrative control for seamless assessment management."
+        },
+        {
+            id: 15,
             name: "Rinku - Shorten Link",
             company: "EAJ Core Team (Internal)",
             companyCode: "EAJ",
             type: "Web",
+            category: "Experimental",
             tech: ["Bootstrap", "jQuery", "ExpressJS", "MySQL"],
             impact: "Streamlined URL sharing, centralized link management, quick access via aliases"
         },
         {
-            id: 15,
+            id: 16,
             name: "Nobuka - Simple Tasklist",
             company: "EAJ Core Team (Internal)",
             companyCode: "EAJ",
             type: "Desktop",
+            category: "Experimental",
             tech: ["Bootstrap", "ExpressJS", "Electron"],
             impact: "Dedicated desktop task tracking, clear categorization (Work/Personal/General)"
         },
         {
-            id: 16,
+            id: 17,
             name: "Momodoro - Timer App",
             company: "EAJ Core Team (Internal)",
             companyCode: "EAJ",
             type: "Desktop",
+            category: "Experimental",
             tech: ["Bootstrap", "ExpressJS", "Electron"],
             impact: "Disciplined work intervals, session history tracking, burnout prevention"
         },
         {
-            id: 17,
-            name: "Mj sPay",
+            id: 18,
+            name: "MjsPay",
             company: "CV Mitra Jaya Solusindo",
             companyCode: "Mitra",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "Laravel", "MySQL"],
             impact: "Efficient vehicle tax payment, real-time tracking, accurate structured reports"
         },
         {
-            id: 18,
+            id: 19,
             name: "Sinpus (Library System)",
             company: "SMK Islam PB. Soedirman 2",
             companyCode: "SMK",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "Laravel", "MySQL"],
             impact: "Easy book availability check, reduced library queues, efficient data management"
         },
         {
-            id: 19,
+            id: 20,
             name: "Absensi (Attendance)",
             company: "SMK Islam PB. Soedirman 2",
             companyCode: "SMK",
             type: "Web",
+            category: "Production",
             tech: ["Bootstrap", "Laravel", "MySQL"],
             impact: "Faster paperless attendance, reduced recording errors, accessible teacher reports"
         }
     ];
+
+    function filterProjects(category) {
+        const filtered = category === 'all' 
+            ? projects 
+            : projects.filter(p => p.category === category);
+        
+        renderTable(filtered);
+        updateFilterCount(filtered.length);
+        
+        // Update active button state
+        $('.filter-btn').removeClass('active');
+        $(`.filter-btn[data-filter="${category}"]`).addClass('active');
+    }
+
+    function updateFilterCount(visible) {
+        $('#visibleCount').text(visible);
+        $('#totalCount').text(projects.length);
+    }
+
+    // === EVENT LISTENER FOR FILTER BUTTONS ===
+    $('.filter-btn').on('click', function() {
+        const filter = $(this).data('filter');
+        filterProjects(filter);
+    });
+
+    // === INITIALIZE ===
+    renderTable(projects);
+    updateFilterCount(projects.length);
+    calculateStats();
 
     function calculateStats() {
         const total = projects.length;
@@ -198,7 +256,6 @@ $(document).ready(function() {
             .slice(0, 10);
         
         createTypeChart(webCount, desktopCount);
-        createCompanyChart(wingsCount, eajCount, mitraCount, smkCount);
         createTechChart(sortedTech);
     }
 
@@ -250,42 +307,6 @@ $(document).ready(function() {
         });
     }
 
-    function createCompanyChart(wings, eaj, mitra, smk) {
-        const ctx = document.getElementById('companyChart').getContext('2d');
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['WINGS', 'EAJ', 'Mitra', 'SMK'],
-                datasets: [{
-                    label: 'Projects',
-                    data: [wings, eaj, mitra, smk],
-                    backgroundColor: ['#FF6B9D', '#7BED54', '#FF8C42', '#FFE600'],
-                    borderColor: '#1a1a1a',
-                    borderWidth: 3
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: true,
-                plugins: {
-                    legend: { display: false }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        ticks: {
-                            stepSize: 1,
-                            font: { family: 'Space Mono', size: 9 }
-                        },
-                        grid: { color: '#ddd' }
-                    },
-                    x: {
-                        ticks: { font: { family: 'Space Grotesk', size: 9 } }
-                    }
-                }
-            }
-        });
-    }
 
     function createTechChart(techData) {
         const labels = techData.map(t => t[0]);
@@ -372,7 +393,7 @@ $(document).ready(function() {
         data.forEach(p => {
             const techHtml = p.tech.map(t => {
                 const techClass = techClassMap[t] || 'tech-default';
-                console.log(`Tech: ${t} -> Class: ${techClass}`); // Debug log
+                // console.log(`Tech: ${t} -> Class: ${techClass}`); // Debug log
                 return `<span class="tech-badge ${techClass}">${t}</span>`;
             }).join('');
             
@@ -380,6 +401,9 @@ $(document).ready(function() {
             
             html += `
             <tr>
+                <td data-label="No">
+                    <div class="number">${p.id}</div>
+                </td>
                 <td data-label="Project">
                     <div class="project-name">${p.name}</div>
                     <div class="project-company">${p.company}</div>
@@ -389,6 +413,9 @@ $(document).ready(function() {
                 </td>
                 <td data-label="Type">
                     <span class="type-badge ${typeClass}">${p.type}</span>
+                </td>
+                <td data-label="Category">
+                    <span class="category-badge category-${p.category.toLowerCase()}">${p.category}</span>
                 </td>
                 <td data-label="Tech">
                     <div style="display:flex;flex-wrap:wrap;gap:0.2rem;">${techHtml}</div>
