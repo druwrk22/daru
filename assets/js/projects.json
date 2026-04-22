@@ -1,0 +1,492 @@
+[
+    {
+        "id": 1,
+        "name": "TMS (Transportation Management System)",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "VueJS", "MySQL"],
+        "impact": "Track truck positions via custom maps, reduce paper usage 80%, auto Telegram alerts"
+    },
+    {
+        "id": 2,
+        "name": "Help Dev (Ticket Management)",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Task assignment, performance tracking, transparent ticket workflow"
+    },
+    {
+        "id": 3,
+        "name": "Silo Management System",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "24h flour retrieval optimization, centralized monitoring, live truck tracking"
+    },
+    {
+        "id": 4,
+        "name": "Checklist SDP",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Early overheating detection, automated maintenance scheduling, offline support"
+    },
+    {
+        "id": 5,
+        "name": "HR Connect",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Streamlined employee onboarding, auto facility calculation, calendar dashboard"
+    },
+    {
+        "id": 6,
+        "name": "Shelf Life QA",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Traceable sample flow, rigorous approval process, real-time notifications"
+    },
+    {
+        "id": 7,
+        "name": "FL Produksi",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Equipment tracking, digital approval workflow, production trend analysis"
+    },
+    {
+        "id": 8,
+        "name": "CPAR Audit",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Systematic non-conformity fixing, risk identification, audit lifecycle management"
+    },
+    {
+        "id": 9,
+        "name": "Smart Lab",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Faster DA/PA turnaround, real-time task visibility, authorized verification flow"
+    },
+    {
+        "id": 10,
+        "name": "E-Resepsionis",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Digital audit trail, QR/ID scanning system, structured document tracking"
+    },
+    {
+        "id": 11,
+        "name": "BA Co-Product",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Digital approval workflow, real-time BA statistics, template system"
+    },
+    {
+        "id": 12,
+        "name": "Serial System Communication",
+        "company": "EAJ Core Team (GPL Sawit)",
+        "companyCode": "EAJ",
+        "type": "Desktop",
+        "category": "Production",
+        "tech": [".NET", "MSSQL"],
+        "impact": "Accurate transaction sync, real-time data transparency, customizable integration"
+    },
+    {
+        "id": 13,
+        "name": "Gmaps Scraper",
+        "company": "EAJ Core Team (Internal)",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ExpressJS"],
+        "impact": "90% faster B2B lead gathering, competitor monitoring, clean data export"
+    },
+    {
+        "id": 14,
+        "name": "DISC Test",
+        "company": "EAJ Core Team (Internal)",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "VueJS", "ExpressJS", "MySQL"],
+        "impact": "Automated psychological profiling with real-time analytics and centralized administrative control for seamless assessment management."
+    },
+    {
+        "id": 15,
+        "name": "Rinku - Shorten Link",
+        "company": "EAJ Core Team (Internal)",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "jQuery", "ExpressJS", "MySQL"],
+        "impact": "Streamlined URL sharing, centralized link management, quick access via aliases"
+    },
+    {
+        "id": 16,
+        "name": "Nobuka - Simple Tasklist",
+        "company": "EAJ Core Team (Internal)",
+        "companyCode": "EAJ",
+        "type": "Desktop",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ExpressJS", "Electron"],
+        "impact": "Dedicated desktop task tracking, clear categorization (Work/Personal/General)"
+    },
+    {
+        "id": 17,
+        "name": "Momodoro - Timer App",
+        "company": "EAJ Core Team (Internal)",
+        "companyCode": "EAJ",
+        "type": "Desktop",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ExpressJS", "Electron"],
+        "impact": "Disciplined work intervals, session history tracking, burnout prevention"
+    },
+    {
+        "id": 18,
+        "name": "MjsPay",
+        "company": "CV Mitra Jaya Solusindo",
+        "companyCode": "Mitra",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Efficient vehicle tax payment, real-time tracking, accurate structured reports"
+    },
+    {
+        "id": 19,
+        "name": "Sinpus (Library System)",
+        "company": "SMK Islam PB. Soedirman 2",
+        "companyCode": "SMK",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Easy book availability check, reduced library queues, efficient data management"
+    },
+    {
+        "id": 20,
+        "name": "Absensi (Attendance)",
+        "company": "SMK Islam PB. Soedirman 2",
+        "companyCode": "SMK",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Faster paperless attendance, reduced recording errors, accessible teacher reports"
+    },
+    {
+        "id": 21,
+        "name": "Hikari",
+        "company": "EAJ Core Team",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ExpressJS"],
+        "impact": "Automated data pipeline to Google Sheets API, eliminating manual entry and enabling real-time reporting dashboards"
+    },
+    {
+        "id": 22,
+        "name": "YukiNote",
+        "company": "EAJ Core Team",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ExpressJS"],
+        "impact": "Lightweight note-taking with local storage sync, enabling quick capture and offline access without server dependency"
+    },
+    {
+        "id": 23,
+        "name": "Miho",
+        "company": "EAJ Core Team",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ExpressJS"],
+        "impact": "Instant calculations with clean UI, supporting complex formulas and history tracking for productivity workflows"
+    },
+    {
+        "id": 24,
+        "name": "4UContact",
+        "company": "EAJ Core Team",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ExpressJS", "MySQL"],
+        "impact": "Centralized contact management with export capabilities, duplicate detection, and searchable directory for team collaboration"
+    },
+    {
+        "id": 25,
+        "name": "WRH Parking",
+        "company": "EAJ Core Team",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "ReactJS", "ExpressJS", "MySQL"],
+        "impact": "Optimized truck parking coordination via QR check-in, reducing warehouse congestion and improving logistics turnaround time"
+    },
+    {
+        "id": 26,
+        "name": "IP Tools",
+        "company": "EAJ Core Team",
+        "companyCode": "EAJ",
+        "type": "Desktop",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "Electron"],
+        "impact": "Rapid network diagnostics with one-click IP scanning, subnet analysis, and exportable reports for IT troubleshooting"
+    },
+    {
+        "id": 27,
+        "name": "Document Center",
+        "company": "EAJ Core Team",
+        "companyCode": "EAJ",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Secure centralized document repository with role-based access, version control, and audit trails for organizational knowledge management"
+    },
+    {
+        "id": 28,
+        "name": "Simobil Silo",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "WINGS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Angular", "Firebase"],
+        "impact": "Streamlined truck loading workflow via QR code scanning, reducing manual verification time by 70% and improving inventory accuracy"
+    },
+    {
+        "id": 29,
+        "name": "ANTicket",
+        "company": "Personal Project",
+        "companyCode": "Pribadi",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "CodeIgniter", "MySQL"],
+        "impact": "Structured ticket management with priority queues, status tracking, and automated notifications to accelerate issue resolution"
+    },
+    {
+        "id": 30,
+        "name": "Simple Ticket",
+        "company": "Personal Project",
+        "companyCode": "Pribadi",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Clean CRUD implementation for ticket workflows, demonstrating scalable architecture and validation patterns for interview readiness"
+    },
+    {
+        "id": 31,
+        "name": "ANlogs",
+        "company": "Personal Project",
+        "companyCode": "Pribadi",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Centralized application logging with filterable views, error categorization, and export features for efficient debugging and compliance"
+    },
+    {
+        "id": 32,
+        "name": "ANHRConnect",
+        "company": "Personal Project",
+        "companyCode": "Pribadi",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "Laravel", "Livewire", "MySQL"],
+        "impact": "Automated employee entry/exit tracking with approval workflows, real-time attendance dashboards, and compliance reporting"
+    },
+    {
+        "id": 33,
+        "name": "Job Tracker",
+        "company": "Personal Project",
+        "companyCode": "Pribadi",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Organized job application pipeline with status tracking, deadline reminders, and interview preparation notes to improve hiring success rate"
+    },
+    {
+        "id": 34,
+        "name": "CBT Yappenda",
+        "company": "SMAS Yappenda",
+        "companyCode": "SMK",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "Livewire", "MySQL"],
+        "impact": "Secure computer-based testing platform with randomized questions, auto-grading, and instant result analytics for efficient student assessment"
+    },
+    {
+        "id": 35,
+        "name": "Face Recognition",
+        "company": "Personal Project",
+        "companyCode": "Pribadi",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "Flask"],
+        "impact": "Real-time facial detection and recognition using machine learning models, enabling secure biometric authentication and attendance automation"
+    },
+    {
+        "id": 36,
+        "name": "FL Internship Wings",
+        "company": "PT Prakarsa Alam Segar (PAS)",
+        "companyCode": "PAS",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Digital internship reporting with structured templates, supervisor approvals, and progress tracking to enhance student learning outcomes"
+    },
+    {
+        "id": 37,
+        "name": "Veenity",
+        "company": "Freelance Project",
+        "companyCode": "Freelance",
+        "type": "Web",
+        "category": "Freelance",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Professional company profile website with responsive design, service showcases, and contact integration to strengthen brand presence and lead generation"
+    },
+    {
+        "id": 38,
+        "name": "Skripsi Pintar",
+        "company": "Freelance Project",
+        "companyCode": "Freelance",
+        "type": "Web",
+        "category": "Freelance",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Academic assistance platform with research guidance, citation management, and plagiarism checking to support students in completing thesis projects efficiently"
+    },
+    {
+        "id": 39,
+        "name": "Suzuki Tangerang",
+        "company": "Freelance Project",
+        "companyCode": "Freelance",
+        "type": "Web",
+        "category": "Freelance",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Dealership showcase with vehicle inventory browsing, test drive scheduling, and financing calculators to enhance customer engagement and sales conversion"
+    },
+    {
+        "id": 40,
+        "name": "MyQuran",
+        "company": "Personal Project",
+        "companyCode": "Pribadi",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Digital Quran platform with verse search, bookmarking, and audio recitation features to facilitate accessible Islamic learning and daily reflection"
+    },
+    {
+        "id": 41,
+        "name": "Kita Coding",
+        "company": "Freelance Project",
+        "companyCode": "Freelance",
+        "type": "Web",
+        "category": "Freelance",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Developer-focused blogging platform with markdown support, tag organization, and SEO optimization to share technical knowledge and build community engagement"
+    },
+    {
+        "id": 42,
+        "name": "Konveksi Bintang",
+        "company": "Freelance Project",
+        "companyCode": "Freelance",
+        "type": "Web",
+        "category": "Freelance",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Custom garment order management with size tracking, production scheduling, and customer communication to streamline small business operations and improve fulfillment accuracy"
+    },
+    {
+        "id": 43,
+        "name": "Zenku",
+        "company": "UBSI Academic (SKRIPSI)",
+        "companyCode": "UBSI",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
+        "impact": "Thesis project demonstrating full-stack development with user authentication, data visualization, and deployment best practices for academic portfolio showcase"
+    },
+    {
+        "id": 44,
+        "name": "ReehatApp",
+        "company": "UBSI Academic",
+        "companyCode": "UBSI",
+        "type": "Web",
+        "category": "Experimental",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Digital wellness tool with social media usage tracking, goal setting, and motivational notifications to promote healthier online habits and productivity"
+    },
+    {
+        "id": 45,
+        "name": "WRPRO",
+        "company": "Freelance Project",
+        "companyCode": "Freelance",
+        "type": "Web",
+        "category": "Freelance",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Professional web presence with service portfolios, client testimonials, and inquiry forms to attract business opportunities and establish brand credibility"
+    },
+    {
+        "id": 46,
+        "name": "E-Raport",
+        "company": "SMK Islam PB. Soedirman 2",
+        "companyCode": "SMK",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Digital report card system with automated grade calculation, parent access portals, and pandemic-ready remote learning support for transparent academic communication"
+    },
+    {
+        "id": 47,
+        "name": "PPDB Online",
+        "company": "SMK Islam PB. Soedirman 2",
+        "companyCode": "SMK",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Streamlined new student registration with digital form submission, document upload, and payment integration to reduce administrative workload during admission periods"
+    },
+    {
+        "id": 48,
+        "name": "TEFA PBS",
+        "company": "SMK Islam PB. Soedirman 2",
+        "companyCode": "SMK",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Teaching factory showcase with project galleries, student work displays, and industry partnership information to attract collaborators and demonstrate vocational excellence"
+    },
+    {
+        "id": 49,
+        "name": "Skolapay",
+        "company": "SMK Islam PB. Soedirman 2",
+        "companyCode": "SMK",
+        "type": "Web",
+        "category": "Production",
+        "tech": ["Bootstrap", "Laravel", "MySQL"],
+        "impact": "Secure tuition payment platform with transaction history, automated receipts, and financial reporting to simplify school fee management for parents and administrators"
+    }
+]

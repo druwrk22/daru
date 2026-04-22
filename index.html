@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
     <!-- NAVBAR -->
     <nav class="navbar-brutal">
         <div class="container d-flex align-items-center">
@@ -207,10 +206,18 @@
             <div class="filter-bar mb-4">
                 <div class="filter-group">
                     <span class="filter-label">FILTER:</span>
-                    <button class="filter-btn active" data-filter="all">ALL</button>
-                    <button class="filter-btn" data-filter="Production">PRODUCTION</button>
-                    <button class="filter-btn" data-filter="Experimental">EXPERIMENTAL</button>
-                    <!-- <button class="filter-btn" data-filter="Freelance">FREELANCE</button> -->
+                    <button class="filter-btn active" data-filter="all">
+                        ALL <span class="filter-badge" id="badge-all">20</span>
+                    </button>
+                    <button class="filter-btn" data-filter="Production">
+                        PRODUCTION <span class="filter-badge" id="badge-production">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="Experimental">
+                        EXPERIMENTAL <span class="filter-badge" id="badge-experimental">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="Freelance">
+                        FREELANCE <span class="filter-badge" id="badge-freelance">0</span>
+                    </button>
                 </div>
                 <div class="filter-count">
                     Showing <span id="visibleCount">20</span> of <span id="totalCount">20</span> projects

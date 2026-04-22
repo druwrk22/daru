@@ -836,3 +836,47 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0.9rem 1.5rem;
     }
 }
+
+.filter-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 24px;
+    padding: 0 6px;
+    margin-left: 6px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: var(--brutal-black);
+    color: var(--brutal-yellow);
+    border: 2px solid var(--brutal-black);
+    border-radius: 4px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+.filter-btn[data-filter="Production"] .filter-badge {
+    background: var(--brutal-green);
+    color: var(--brutal-black);
+}
+
+.filter-btn[data-filter="Experimental"] .filter-badge {
+    background: var(--brutal-purple);
+    color: white;
+}
+
+.filter-btn.active .filter-badge {
+    background: var(--brutal-yellow);
+    color: var(--brutal-black);
+    box-shadow: 1px 1px 0px var(--brutal-black);
+}
+
+.filter-btn[data-filter="Production"].active .filter-badge {
+    background: var(--brutal-black);
+    color: var(--brutal-green);
+}
+
+.filter-btn[data-filter="Experimental"].active .filter-badge {
+    background: var(--brutal-black);
+    color: var(--brutal-purple);
+}
