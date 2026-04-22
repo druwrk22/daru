@@ -103,11 +103,7 @@ $(document).ready(function () {
             </div>`;
         });
 
-        if (currentPage === 1) {
-            grid.html(html);
-        } else {
-            grid.append(html);
-        }
+        grid.html(html);
     }
 
     $('#loadMoreBtn').on('click', function () {
@@ -184,41 +180,6 @@ $(document).ready(function () {
         applyFilter(filter);
     });
 
-    window.openProjectModal = function (projectId) {
-        const project = allProjects.find(p => p.id === projectId);
-        if (!project) return;
-
-        $('#modalTitle').text(project.name);
-        $('#modalCompany').text(project.company);
-        $('#modalType').text(project.type).removeClass('type-web type-desktop').addClass(project.type === 'Web' ? 'type-web' : 'type-desktop');
-        $('#modalCategory').text(project.category).removeClass().addClass(`category-badge category-${project.category.toLowerCase()}`);
-        $('#modalImpact').text(project.impact);
-
-        const techHtml = project.tech.map(t => {
-            const cls = getTechClass(t);
-            return `<span class="tech-badge ${cls}">${t}</span>`;
-        }).join('');
-        $('#modalTech').html(techHtml);
-
-        let linksHtml = '';
-        if (project.github) {
-            linksHtml += `<a href="${project.github}" target="_blank" class="modal-btn modal-btn-primary">
-                <i class="bi bi-github"></i> View Code
-            </a>`;
-        }
-        if (project.link) {
-            linksHtml += `<a href="${project.link}" target="_blank" class="modal-btn modal-btn-secondary">
-                <i class="bi bi-box-arrow-up-right"></i> Live Demo
-            </a>`;
-        }
-        if (!linksHtml) {
-            linksHtml = '<span class="text-muted small">No public links available</span>';
-        }
-        $('#modalLinks').html(linksHtml);
-
-        new bootstrap.Modal(document.getElementById('projectModal')).show();
-    };
-
     $('a[href^="#"]').on('click', function (e) {
         const href = $(this).attr('href');
         if (href !== '#' && href.indexOf('#') === 0) {
@@ -232,72 +193,42 @@ $(document).ready(function () {
         }
     });
 
-    function generateModalCarousel(images, projectId) {
+    function generateLightboxGallery(images, projectId) {
         const container = $('#modalCarouselContainer');
 
         if (!images || images.length === 0) {
             container.html(`
-            <div class="no-image">
-                <div>
-                    <i class="bi bi-image"></i>
-                    <div>No screenshots available</div>
-                    <small class="d-block mt-2" style="opacity:0.7">Project ID: #${projectId}</small>
+                <div class="no-image">
+                    <div>
+                        <i class="bi bi-image"></i>
+                        <div>No screenshots available</div>
+                        <small class="d-block mt-2" style="opacity:0.7">Project ID: #${projectId}</small>
+                    </div>
                 </div>
-            </div>
-        `);
+            `);
             return;
         }
 
-        if (images.length === 1) {
-            container.html(`
-            <div class="text-center" style="border:var(--brutal-border-thick);background:#111;padding:1rem;">
-                <img src="${images[0]}" alt="Project screenshot" 
-                     style="max-height:400px;max-width:100%;border:3px solid var(--brutal-yellow);">
-            </div>
-        `);
-            return;
-        }
-
-        let carouselItems = '';
-        let indicators = '';
-        let thumbnails = '';
-
+        // Gallery layout untuk lightbox
+        let galleryHtml = `
+            <div class="lightbox-gallery row g-2">
+        `;
+        
         images.forEach((img, index) => {
-            const active = index === 0 ? 'active' : '';
-            carouselItems += `
-            <div class="carousel-item ${active}">
-                <img src="${img}" class="d-block" alt="Screenshot ${index + 1}" 
-                     onclick="openImageFullscreen('${img}')">
-            </div>`;
-            indicators += `<button type="button" data-bs-target="#modalCarousel" 
-                              data-bs-slide-to="${index}" class="${active}" 
-                              aria-label="Slide ${index + 1}"></button>`;
-            thumbnails += `
-            <div class="thumb-item ${active}" onclick="slideTo(${index}, '${projectId}')">
-                <img src="${img}" alt="Thumb ${index + 1}" loading="lazy">
-            </div>`;
+            galleryHtml += `
+                <div class="col-md-4 col-sm-6">
+                    <a href="${img}" class="lightbox-item d-block" data-caption="Screenshot ${index + 1}">
+                        <img src="${img}" alt="Screenshot ${index + 1}" 
+                            class="img-fluid rounded border" 
+                            style="height: 150px; object-fit: cover; cursor: zoom-in;">
+                    </a>
+                </div>
+            `;
         });
+        
+        galleryHtml += '</div>';
 
-        container.html(`
-        <div id="modalCarousel" class="carousel slide modal-carousel" data-bs-ride="false">
-            <div class="carousel-inner">
-                ${carouselItems}
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-            <div class="carousel-indicators">${indicators}</div>
-        </div>
-        <div class="carousel-thumbnails">${thumbnails}</div>
-    `);
-
-        $('#modalCarousel').on('slid.bs.carousel', function (e) {
-            const idx = e.to;
-            $('.thumb-item').removeClass('active').eq(idx).addClass('active');
-        });
+        container.html(galleryHtml);
     }
 
     window.slideTo = function (index, projectId) {
@@ -345,7 +276,6 @@ $(document).ready(function () {
             .addClass(project.type === 'Web' ? 'type-web' : 'type-desktop');
         $('#modalCategory').text(project.category).removeClass()
             .addClass(`category-badge category-${project.category.toLowerCase()}`);
-        $('#modalYear').text(project.year || '2026');
         $('#modalImpact').text(project.impact);
 
         const techHtml = project.tech.map(t => {
@@ -354,7 +284,7 @@ $(document).ready(function () {
         }).join('');
         $('#modalTech').html(techHtml);
 
-        generateModalCarousel(project.images, projectId);
+        generateLightboxGallery(project.images, projectId);
 
         let linksHtml = '';
         if (project.github) {
@@ -376,22 +306,22 @@ $(document).ready(function () {
         modal.show();
 
         $('#projectModal').one('shown.bs.modal', function () {
-            const carouselEl = document.getElementById('modalCarousel');
-            if (carouselEl && !bootstrap.Carousel.getInstance(carouselEl)) {
-                new bootstrap.Carousel(carouselEl, {
-                    interval: false,
-                    wrap: true
-                });
-            }
+            setTimeout(() => {
+                if (project.images && project.images.length > 0) {
+                    baguetteBox.run('.lightbox-gallery', {
+                        animation: 'slideIn',
+                        noScrollbars: true,
+                        buttons: true,
+                        async: true,
+                        preload: 2
+                    });
+                }
+            }, 0);
         });
     };
 
     $('#projectModal').on('hidden.bs.modal', function () {
-        const carouselEl = document.getElementById('modalCarousel');
-        if (carouselEl) {
-            const carousel = bootstrap.Carousel.getInstance(carouselEl);
-            if (carousel) carousel.dispose();
-        }
+        baguetteBox.destroy();
         $('#modalCarouselContainer').empty();
     });
 });

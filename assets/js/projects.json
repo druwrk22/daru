@@ -7,7 +7,11 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "VueJS", "MySQL"],
-        "impact": "Track truck positions via custom maps, reduce paper usage 80%, auto Telegram alerts"
+        "impact": "Track truck positions via custom maps, reduce paper usage 80%, auto Telegram alerts",
+        "images": [
+            "assets/img/proj/tms/p_tms_1.webp",
+            "assets/img/proj/tms/p_tms_2.webp"
+        ]
     },
     {
         "id": 2,
@@ -17,7 +21,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Task assignment, performance tracking, transparent ticket workflow"
+        "impact": "Task assignment, performance tracking, transparent ticket workflow",
+        "images": [
+            "assets/img/proj/help_dev/p_help_dev_1.webp",
+            "assets/img/proj/help_dev/p_help_dev_2.webp",
+            "assets/img/proj/help_dev/p_help_dev_3.webp"
+        ]
     },
     {
         "id": 3,
@@ -27,7 +36,10 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "24h flour retrieval optimization, centralized monitoring, live truck tracking"
+        "impact": "24h flour retrieval optimization, centralized monitoring, live truck tracking",
+        "images": [
+            "assets/img/proj/silo/p_silo_1.webp"
+        ]
     },
     {
         "id": 4,
