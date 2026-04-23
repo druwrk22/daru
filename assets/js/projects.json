@@ -10,7 +10,8 @@
         "impact": "Track truck positions via custom maps, reduce paper usage 80%, auto Telegram alerts",
         "images": [
             "assets/img/proj/tms/p_tms_1.webp",
-            "assets/img/proj/tms/p_tms_2.webp"
+            "assets/img/proj/tms/p_tms_2.webp",
+            "assets/img/proj/tms/p_tms_3.webp"
         ]
     },
     {
@@ -49,7 +50,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Early overheating detection, automated maintenance scheduling, offline support"
+        "impact": "Early overheating detection, automated maintenance scheduling, offline support",
+        "images": [
+            "assets/img/proj/checklist_sdp/p_checklist_sdp_1.webp",
+            "assets/img/proj/checklist_sdp/p_checklist_sdp_2.webp",
+            "assets/img/proj/checklist_sdp/p_checklist_sdp_3.webp"
+        ]
     },
     {
         "id": 5,
@@ -59,7 +65,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Streamlined employee onboarding, auto facility calculation, calendar dashboard"
+        "impact": "Streamlined employee onboarding, auto facility calculation, calendar dashboard",
+        "images": [
+            "assets/img/proj/hr_connect/p_hr_connect_1.webp",
+            "assets/img/proj/hr_connect/p_hr_connect_2.webp",
+            "assets/img/proj/hr_connect/p_hr_connect_3.webp"
+        ]
     },
     {
         "id": 6,
@@ -69,7 +80,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Traceable sample flow, rigorous approval process, real-time notifications"
+        "impact": "Traceable sample flow, rigorous approval process, real-time notifications",
+        "images": [
+            "assets/img/proj/shelf_life_qa/p_shelf_life_qa_1.webp",
+            "assets/img/proj/shelf_life_qa/p_shelf_life_qa_2.webp",
+            "assets/img/proj/shelf_life_qa/p_shelf_life_qa_3.webp"
+        ]
     },
     {
         "id": 7,
@@ -79,7 +95,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Equipment tracking, digital approval workflow, production trend analysis"
+        "impact": "Equipment tracking, digital approval workflow, production trend analysis",
+        "images": [
+            "assets/img/proj/fl_produksi/p_fl_produksi_1.webp",
+            "assets/img/proj/fl_produksi/p_fl_produksi_2.webp",
+            "assets/img/proj/fl_produksi/p_fl_produksi_3.webp"
+        ]
     },
     {
         "id": 8,
@@ -89,7 +110,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Systematic non-conformity fixing, risk identification, audit lifecycle management"
+        "impact": "Systematic non-conformity fixing, risk identification, audit lifecycle management",
+        "images": [
+            "assets/img/proj/cpar_audit/p_cpar_audit_1.webp",
+            "assets/img/proj/cpar_audit/p_cpar_audit_2.webp",
+            "assets/img/proj/cpar_audit/p_cpar_audit_3.webp"
+        ]
     },
     {
         "id": 9,
@@ -99,7 +125,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Faster DA/PA turnaround, real-time task visibility, authorized verification flow"
+        "impact": "Faster DA/PA turnaround, real-time task visibility, authorized verification flow",
+        "images": [
+            "assets/img/proj/smart_lab/p_smart_lab_1.webp",
+            "assets/img/proj/smart_lab/p_smart_lab_2.webp",
+            "assets/img/proj/smart_lab/p_smart_lab_3.webp"
+        ]
     },
     {
         "id": 10,
@@ -109,7 +140,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Digital audit trail, QR/ID scanning system, structured document tracking"
+        "impact": "Digital audit trail, QR/ID scanning system, structured document tracking",
+        "images": [
+            "assets/img/proj/resepsionis/p_resepsionis_1.webp",
+            "assets/img/proj/resepsionis/p_resepsionis_2.webp",
+            "assets/img/proj/resepsionis/p_resepsionis_3.webp"
+        ]
     },
     {
         "id": 11,
@@ -119,7 +155,12 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Digital approval workflow, real-time BA statistics, template system"
+        "impact": "Digital approval workflow, real-time BA statistics, template system",
+        "images": [
+            "assets/img/proj/ba/p_ba_1.webp",
+            "assets/img/proj/ba/p_ba_2.webp",
+            "assets/img/proj/ba/p_ba_3.webp"
+        ]
     },
     {
         "id": 12,
