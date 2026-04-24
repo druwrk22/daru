@@ -265,7 +265,10 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Easy book availability check, reduced library queues, efficient data management"
+        "impact": "Easy book availability check, reduced library queues, efficient data management",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     },
     {
         "id": 20,
@@ -275,7 +278,10 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Faster paperless attendance, reduced recording errors, accessible teacher reports"
+        "impact": "Faster paperless attendance, reduced recording errors, accessible teacher reports",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     },
     {
         "id": 21,
@@ -394,16 +400,6 @@
     },
     {
         "id": 29,
-        "name": "Job Tracker",
-        "company": "Personal Project",
-        "companyCode": "Pribadi",
-        "type": "Web",
-        "category": "Experimental",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Organized job application pipeline with status tracking, deadline reminders, and interview preparation notes to improve hiring success rate"
-    },
-    {
-        "id": 30,
         "name": "CBT Yappenda",
         "company": "SMAS Yappenda",
         "companyCode": "SMK",
@@ -416,90 +412,22 @@
         ]
     },
     {
-        "id": 31,
-        "name": "Face Recognition",
-        "company": "Personal Project",
-        "companyCode": "Pribadi",
-        "type": "Web",
-        "category": "Experimental",
-        "tech": ["Bootstrap", "Flask"],
-        "impact": "Real-time facial detection and recognition using machine learning models, enabling secure biometric authentication and attendance automation"
-    },
-    {
-        "id": 32,
-        "name": "FL Internship Wings",
-        "company": "PT Prakarsa Alam Segar (PAS)",
-        "companyCode": "PAS",
-        "type": "Web",
-        "category": "Production",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Digital internship reporting with structured templates, supervisor approvals, and progress tracking to enhance student learning outcomes",
-        "images": [
-            "assets/img/proj/p_nda.webp"
-        ]
-    },
-    {
-        "id": 33,
-        "name": "Veenity",
-        "company": "Freelance Project",
-        "companyCode": "Freelance",
-        "type": "Web",
-        "category": "Freelance",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Professional company profile website with responsive design, service showcases, and contact integration to strengthen brand presence and lead generation"
-    },
-    {
-        "id": 34,
+        "id": 30,
         "name": "Skripsi Pintar",
         "company": "Freelance Project",
         "companyCode": "Freelance",
         "type": "Web",
         "category": "Freelance",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Academic assistance platform with research guidance, citation management, and plagiarism checking to support students in completing thesis projects efficiently"
+        "impact": "Academic assistance platform with research guidance, citation management, and plagiarism checking to support students in completing thesis projects efficiently",
+        "images": [
+            "assets/img/proj/skripsipintar/p_skripsipintar_1.webp",
+            "assets/img/proj/skripsipintar/p_skripsipintar_2.webp",
+            "assets/img/proj/skripsipintar/p_skripsipintar_3.webp"
+        ]
     },
     {
-        "id": 35,
-        "name": "Suzuki Tangerang",
-        "company": "Freelance Project",
-        "companyCode": "Freelance",
-        "type": "Web",
-        "category": "Freelance",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Dealership showcase with vehicle inventory browsing, test drive scheduling, and financing calculators to enhance customer engagement and sales conversion"
-    },
-    {
-        "id": 36,
-        "name": "MyQuran",
-        "company": "Personal Project",
-        "companyCode": "Pribadi",
-        "type": "Web",
-        "category": "Experimental",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Digital Quran platform with verse search, bookmarking, and audio recitation features to facilitate accessible Islamic learning and daily reflection"
-    },
-    {
-        "id": 37,
-        "name": "Kita Coding",
-        "company": "Freelance Project",
-        "companyCode": "Freelance",
-        "type": "Web",
-        "category": "Freelance",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Developer-focused blogging platform with markdown support, tag organization, and SEO optimization to share technical knowledge and build community engagement"
-    },
-    {
-        "id": 38,
-        "name": "Konveksi Bintang",
-        "company": "Freelance Project",
-        "companyCode": "Freelance",
-        "type": "Web",
-        "category": "Freelance",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Custom garment order management with size tracking, production scheduling, and customer communication to streamline small business operations and improve fulfillment accuracy"
-    },
-    {
-        "id": 39,
+        "id": 31,
         "name": "Zenku",
         "company": "UBSI Academic (SKRIPSI)",
         "companyCode": "UBSI",
@@ -513,63 +441,70 @@
         ]
     },
     {
-        "id": 40,
-        "name": "ReehatApp",
-        "company": "UBSI Academic",
-        "companyCode": "UBSI",
-        "type": "Web",
-        "category": "Experimental",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Digital wellness tool with social media usage tracking, goal setting, and motivational notifications to promote healthier online habits and productivity"
-    },
-    {
-        "id": 41,
+        "id": 32,
         "name": "WRPRO",
         "company": "Freelance Project",
         "companyCode": "Freelance",
         "type": "Web",
         "category": "Freelance",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Professional web presence with service portfolios, client testimonials, and inquiry forms to attract business opportunities and establish brand credibility"
+        "impact": "Professional web presence with service portfolios, client testimonials, and inquiry forms to attract business opportunities and establish brand credibility",
+        "images": [
+            "assets/img/proj/wrpro/p_wrpro_1.webp",
+            "assets/img/proj/wrpro/p_wrpro_2.webp",
+            "assets/img/proj/wrpro/p_wrpro_3.webp"
+        ]
     },
     {
-        "id": 42,
+        "id": 33,
         "name": "E-Raport",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Digital report card system with automated grade calculation, parent access portals, and pandemic-ready remote learning support for transparent academic communication"
+        "impact": "Digital report card system with automated grade calculation, parent access portals, and pandemic-ready remote learning support for transparent academic communication",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     },
     {
-        "id": 43,
+        "id": 34,
         "name": "PPDB Online",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Streamlined new student registration with digital form submission, document upload, and payment integration to reduce administrative workload during admission periods"
+        "impact": "Streamlined new student registration with digital form submission, document upload, and payment integration to reduce administrative workload during admission periods",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     },
     {
-        "id": 44,
+        "id": 35,
         "name": "TEFA PBS",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Teaching factory showcase with project galleries, student work displays, and industry partnership information to attract collaborators and demonstrate vocational excellence"
+        "impact": "Teaching factory showcase with project galleries, student work displays, and industry partnership information to attract collaborators and demonstrate vocational excellence",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     },
     {
-        "id": 45,
+        "id": 36,
         "name": "Skolapay",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Secure tuition payment platform with transaction history, automated receipts, and financial reporting to simplify school fee management for parents and administrators"
+        "impact": "Secure tuition payment platform with transaction history, automated receipts, and financial reporting to simplify school fee management for parents and administrators",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     }
 ]
