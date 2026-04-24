@@ -285,7 +285,10 @@
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "ExpressJS"],
-        "impact": "Automated data pipeline to Google Sheets API, eliminating manual entry and enabling real-time reporting dashboards"
+        "impact": "Automated data pipeline to Google Sheets API, eliminating manual entry and enabling real-time reporting dashboards",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     },
     {
         "id": 22,
@@ -295,40 +298,44 @@
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "ExpressJS"],
-        "impact": "Lightweight note-taking with local storage sync, enabling quick capture and offline access without server dependency"
+        "impact": "Lightweight note-taking with local storage sync, enabling quick capture and offline access without server dependency",
+        "images": [
+            "assets/img/proj/yuki/p_yuki_1.webp",
+            "assets/img/proj/yuki/p_yuki_2.webp",
+            "assets/img/proj/yuki/p_yuki_3.webp"
+        ]
     },
     {
         "id": 23,
-        "name": "Miho",
-        "company": "EAJ Core Team",
-        "companyCode": "EAJ",
-        "type": "Web",
-        "category": "Experimental",
-        "tech": ["Bootstrap", "ExpressJS"],
-        "impact": "Instant calculations with clean UI, supporting complex formulas and history tracking for productivity workflows"
-    },
-    {
-        "id": 24,
         "name": "4UContact",
         "company": "EAJ Core Team",
         "companyCode": "EAJ",
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "ExpressJS", "MySQL"],
-        "impact": "Centralized contact management with export capabilities, duplicate detection, and searchable directory for team collaboration"
+        "impact": "Centralized contact management with export capabilities, duplicate detection, and searchable directory for team collaboration",
+        "images": [
+            "assets/img/proj/4ucontact/p_4ucontact_1.webp",
+            "assets/img/proj/4ucontact/p_4ucontact_2.webp"
+        ]
     },
     {
-        "id": 25,
+        "id": 24,
         "name": "WRH Parking",
         "company": "EAJ Core Team",
         "companyCode": "EAJ",
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "ReactJS", "ExpressJS", "MySQL"],
-        "impact": "Optimized truck parking coordination via QR check-in, reducing warehouse congestion and improving logistics turnaround time"
+        "impact": "Optimized truck parking coordination via QR check-in, reducing warehouse congestion and improving logistics turnaround time",
+        "images": [
+            "assets/img/proj/wrh_parking/p_wrh_parking_1.webp",
+            "assets/img/proj/wrh_parking/p_wrh_parking_2.webp",
+            "assets/img/proj/wrh_parking/p_wrh_parking_3.webp"
+        ]
     },
     {
-        "id": 26,
+        "id": 25,
         "name": "IP Tools",
         "company": "EAJ Core Team",
         "companyCode": "EAJ",
@@ -341,7 +348,7 @@
         ]
     },
     {
-        "id": 27,
+        "id": 26,
         "name": "Document Center",
         "company": "EAJ Core Team",
         "companyCode": "EAJ",
@@ -354,47 +361,39 @@
         ]
     },
     {
-        "id": 28,
+        "id": 27,
         "name": "ANTicket",
         "company": "Personal Project",
         "companyCode": "Pribadi",
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "CodeIgniter", "MySQL"],
-        "impact": "Structured ticket management with priority queues, status tracking, and automated notifications to accelerate issue resolution"
+        "impact": "Structured ticket management with priority queues, status tracking, and automated notifications to accelerate issue resolution",
+        "images": [
+            "assets/img/proj/anticket/p_anticket_1.webp",
+            "assets/img/proj/anticket/p_anticket_2.webp",
+            "assets/img/proj/anticket/p_anticket_3.webp"
+        ]
     },
     {
-        "id": 29,
-        "name": "Simple Ticket",
-        "company": "Personal Project",
-        "companyCode": "Pribadi",
-        "type": "Web",
-        "category": "Experimental",
-        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Clean CRUD implementation for ticket workflows, demonstrating scalable architecture and validation patterns for interview readiness"
-    },
-    {
-        "id": 30,
-        "name": "ANlogs",
-        "company": "Personal Project",
-        "companyCode": "Pribadi",
-        "type": "Web",
-        "category": "Experimental",
-        "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Centralized application logging with filterable views, error categorization, and export features for efficient debugging and compliance"
-    },
-    {
-        "id": 31,
+        "id": 28,
         "name": "ANHRConnect",
         "company": "Personal Project",
         "companyCode": "Pribadi",
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "Laravel", "Livewire", "MySQL"],
-        "impact": "Automated employee entry/exit tracking with approval workflows, real-time attendance dashboards, and compliance reporting"
+        "impact": "Automated employee entry/exit tracking with approval workflows, real-time attendance dashboards, and compliance reporting",
+        "images": [
+            "assets/img/proj/anhrconnect/p_anhrconnect_1.webp",
+            "assets/img/proj/anhrconnect/p_anhrconnect_2.webp",
+            "assets/img/proj/anhrconnect/p_anhrconnect_3.webp",
+            "assets/img/proj/anhrconnect/p_anhrconnect_4.webp",
+            "assets/img/proj/anhrconnect/p_anhrconnect_5.webp"
+        ]
     },
     {
-        "id": 32,
+        "id": 29,
         "name": "Job Tracker",
         "company": "Personal Project",
         "companyCode": "Pribadi",
@@ -404,7 +403,7 @@
         "impact": "Organized job application pipeline with status tracking, deadline reminders, and interview preparation notes to improve hiring success rate"
     },
     {
-        "id": 33,
+        "id": 30,
         "name": "CBT Yappenda",
         "company": "SMAS Yappenda",
         "companyCode": "SMK",
@@ -417,7 +416,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 31,
         "name": "Face Recognition",
         "company": "Personal Project",
         "companyCode": "Pribadi",
@@ -427,17 +426,20 @@
         "impact": "Real-time facial detection and recognition using machine learning models, enabling secure biometric authentication and attendance automation"
     },
     {
-        "id": 35,
+        "id": 32,
         "name": "FL Internship Wings",
         "company": "PT Prakarsa Alam Segar (PAS)",
         "companyCode": "PAS",
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Digital internship reporting with structured templates, supervisor approvals, and progress tracking to enhance student learning outcomes"
+        "impact": "Digital internship reporting with structured templates, supervisor approvals, and progress tracking to enhance student learning outcomes",
+        "images": [
+            "assets/img/proj/p_nda.webp"
+        ]
     },
     {
-        "id": 36,
+        "id": 33,
         "name": "Veenity",
         "company": "Freelance Project",
         "companyCode": "Freelance",
@@ -447,7 +449,7 @@
         "impact": "Professional company profile website with responsive design, service showcases, and contact integration to strengthen brand presence and lead generation"
     },
     {
-        "id": 37,
+        "id": 34,
         "name": "Skripsi Pintar",
         "company": "Freelance Project",
         "companyCode": "Freelance",
@@ -457,7 +459,7 @@
         "impact": "Academic assistance platform with research guidance, citation management, and plagiarism checking to support students in completing thesis projects efficiently"
     },
     {
-        "id": 38,
+        "id": 35,
         "name": "Suzuki Tangerang",
         "company": "Freelance Project",
         "companyCode": "Freelance",
@@ -467,7 +469,7 @@
         "impact": "Dealership showcase with vehicle inventory browsing, test drive scheduling, and financing calculators to enhance customer engagement and sales conversion"
     },
     {
-        "id": 39,
+        "id": 36,
         "name": "MyQuran",
         "company": "Personal Project",
         "companyCode": "Pribadi",
@@ -477,7 +479,7 @@
         "impact": "Digital Quran platform with verse search, bookmarking, and audio recitation features to facilitate accessible Islamic learning and daily reflection"
     },
     {
-        "id": 40,
+        "id": 37,
         "name": "Kita Coding",
         "company": "Freelance Project",
         "companyCode": "Freelance",
@@ -487,7 +489,7 @@
         "impact": "Developer-focused blogging platform with markdown support, tag organization, and SEO optimization to share technical knowledge and build community engagement"
     },
     {
-        "id": 41,
+        "id": 38,
         "name": "Konveksi Bintang",
         "company": "Freelance Project",
         "companyCode": "Freelance",
@@ -497,17 +499,21 @@
         "impact": "Custom garment order management with size tracking, production scheduling, and customer communication to streamline small business operations and improve fulfillment accuracy"
     },
     {
-        "id": 42,
+        "id": 39,
         "name": "Zenku",
         "company": "UBSI Academic (SKRIPSI)",
         "companyCode": "UBSI",
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Thesis project demonstrating full-stack development with user authentication, data visualization, and deployment best practices for academic portfolio showcase"
+        "impact": "Thesis project demonstrating full-stack development with user authentication, data visualization, and deployment best practices for academic portfolio showcase",
+        "images": [
+            "assets/img/proj/zenku/p_zenku_1.webp",
+            "assets/img/proj/zenku/p_zenku_2.webp"
+        ]
     },
     {
-        "id": 43,
+        "id": 40,
         "name": "ReehatApp",
         "company": "UBSI Academic",
         "companyCode": "UBSI",
@@ -517,7 +523,7 @@
         "impact": "Digital wellness tool with social media usage tracking, goal setting, and motivational notifications to promote healthier online habits and productivity"
     },
     {
-        "id": 44,
+        "id": 41,
         "name": "WRPRO",
         "company": "Freelance Project",
         "companyCode": "Freelance",
@@ -527,7 +533,7 @@
         "impact": "Professional web presence with service portfolios, client testimonials, and inquiry forms to attract business opportunities and establish brand credibility"
     },
     {
-        "id": 45,
+        "id": 42,
         "name": "E-Raport",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
@@ -537,7 +543,7 @@
         "impact": "Digital report card system with automated grade calculation, parent access portals, and pandemic-ready remote learning support for transparent academic communication"
     },
     {
-        "id": 46,
+        "id": 43,
         "name": "PPDB Online",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
@@ -547,7 +553,7 @@
         "impact": "Streamlined new student registration with digital form submission, document upload, and payment integration to reduce administrative workload during admission periods"
     },
     {
-        "id": 47,
+        "id": 44,
         "name": "TEFA PBS",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
@@ -557,7 +563,7 @@
         "impact": "Teaching factory showcase with project galleries, student work displays, and industry partnership information to attract collaborators and demonstrate vocational excellence"
     },
     {
-        "id": 48,
+        "id": 45,
         "name": "Skolapay",
         "company": "SMK Islam PB. Soedirman 2",
         "companyCode": "SMK",
