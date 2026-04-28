@@ -1,6 +1,9 @@
 $(document).ready(function () {
-    if (sessionStorage.getItem('warningDismissed')) {
-        $('#device-warning').hide();
+    const isMobile = window.innerWidth <= 991;
+    const isDismissed = sessionStorage.getItem('warningDismissed') === 'true';
+
+    if (isMobile && !isDismissed) {
+        $('#device-warning').css('display', 'flex').hide().fadeIn(400);
     }
 
     $('#closeWarning').on('click', function() {

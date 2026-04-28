@@ -585,7 +585,7 @@
     transform: translate(2px, 2px);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (hover: none) {
     .device-warning-overlay {
         display: flex;
     }
