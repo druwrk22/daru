@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    if (sessionStorage.getItem('warningDismissed')) {
+        $('#device-warning').hide();
+    }
+
+    $('#closeWarning').on('click', function() {
+        $('#device-warning').fadeOut(300);
+        sessionStorage.setItem('warningDismissed', 'true');
+    });
+
     const ITEMS_PER_PAGE = 9;
     let allProjects = [];
     let filteredProjects = [];
