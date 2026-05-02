@@ -98,7 +98,7 @@ $(document).ready(function () {
             </div>` : '';
 
             html += `
-            <div class="project-card" data-id="${p.id}">
+            <div class="project-card" data-id="${p.id}" onclick="event.preventDefault(); openProjectModal(${p.id})">
                 ${imageSection}
                 <div class="card-content">
                     <h3 class="card-title">${p.name}</h3>
@@ -107,9 +107,6 @@ $(document).ready(function () {
                     <div class="card-tech">${techBadges}</div>
                     <div class="card-footer">
                         <span class="card-type ${typeClass}">${p.type}</span>
-                        <a href="#" class="card-link" onclick="event.preventDefault(); openProjectModal(${p.id})">
-                            View Details <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>`;
