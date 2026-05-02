@@ -93,7 +93,7 @@
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "ReactJS", "ExpressJS", "MySQL"],
-        "impact": "Optimized truck parking coordination via QR check-in, reducing warehouse congestion and improving logistics turnaround time",
+        "impact": "Optimized truck parking coordination, reducing warehouse congestion and improving logistics turnaround time",
         "images": [
             "assets/img/proj/wrh_parking/p_wrh_parking_1.webp",
             "assets/img/proj/wrh_parking/p_wrh_parking_2.webp",
@@ -123,7 +123,7 @@
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "Laravel", "Livewire", "MySQL"],
-        "impact": "Automated employee entry/exit tracking with approval workflows, real-time attendance dashboards, and compliance reporting",
+        "impact": "Automated employee apply tracking with approval workflows, create job posting, and realtime process candidate reporting",
         "images": [
             "assets/img/proj/anhrconnect/p_anhrconnect_1.webp",
             "assets/img/proj/anhrconnect/p_anhrconnect_2.webp",
@@ -155,7 +155,7 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Streamlined employee onboarding, auto facility calculation, calendar dashboard",
+        "impact": "Streamlined employee onboarding, auto facility calculation for provide goodie bag / APD, calendar dashboard",
         "images": [
             "assets/img/proj/hr_connect/p_hr_connect_1.webp",
             "assets/img/proj/hr_connect/p_hr_connect_2.webp",
@@ -260,7 +260,7 @@
         "type": "Web",
         "category": "Production",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Efficient vehicle tax payment, real-time tracking, accurate structured reports",
+        "impact": "Efficient vehicle tax payment, and real-time tracking",
         "images": [
             "assets/img/proj/p_nda.webp"
         ]
@@ -273,7 +273,7 @@
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "jQuery", "Laravel", "MySQL"],
-        "impact": "Thesis project demonstrating full-stack development with user authentication, data visualization, and deployment best practices for academic portfolio showcase",
+        "impact": "A full-stack project focused on streamlining digital classroom engagement and material distribution for an effective learning experience.",
         "images": [
             "assets/img/proj/zenku/p_zenku_1.webp",
             "assets/img/proj/zenku/p_zenku_2.webp"
@@ -314,7 +314,7 @@
         "type": "Web",
         "category": "Experimental",
         "tech": ["Bootstrap", "ExpressJS"],
-        "impact": "Automated data pipeline to Google Sheets API, eliminating manual entry and enabling real-time reporting dashboards",
+        "impact": "Automated data Candidates to Google Sheets API without database",
         "images": [
             "assets/img/proj/hikari/p_hikari_1.webp",
             "assets/img/proj/hikari/p_hikari_2.webp"
@@ -371,7 +371,8 @@
         "tech": ["Bootstrap", "Laravel", "MySQL"],
         "impact": "Easy book availability check, reduced library queues, efficient data management",
         "images": [
-            "assets/img/proj/p_nda.webp"
+            "assets/img/proj/sinpus_smkpbs2/p_sinpus_smkbps2_1.webp",
+            "assets/img/proj/sinpus_smkpbs2/p_sinpus_smkpbs2_2.webp"
         ]
     },
     {
@@ -384,7 +385,7 @@
         "tech": ["Bootstrap", "Laravel", "MySQL"],
         "impact": "Faster paperless attendance, reduced recording errors, accessible teacher reports",
         "images": [
-            "assets/img/proj/p_nda.webp"
+            "assets/img/proj/absensi_smkpbs2/p_absensi_smkpbs2_1.webp"
         ]
     },
     {
@@ -408,7 +409,7 @@
         "type": "Web",
         "category": "Freelance",
         "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Academic assistance platform with research guidance, citation management, and plagiarism checking to support students in completing thesis projects efficiently",
+        "impact": "Comprehensive support for students to complete their final academic projects with quality results",
         "images": [
             "assets/img/proj/skripsipintar/p_skripsipintar_1.webp",
             "assets/img/proj/skripsipintar/p_skripsipintar_2.webp",
@@ -428,45 +429,6 @@
             "assets/img/proj/wrpro/p_wrpro_1.webp",
             "assets/img/proj/wrpro/p_wrpro_2.webp",
             "assets/img/proj/wrpro/p_wrpro_3.webp"
-        ]
-    },
-    {
-        "id": 31,
-        "name": "E-Raport",
-        "company": "SMK Islam PB. Soedirman 2",
-        "companyCode": "SMK",
-        "type": "Web",
-        "category": "Production",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Digital report card system with automated grade calculation, parent access portals, and pandemic-ready remote learning support for transparent academic communication",
-        "images": [
-            "assets/img/proj/p_nda.webp"
-        ]
-    },
-    {
-        "id": 32,
-        "name": "PPDB Online",
-        "company": "SMK Islam PB. Soedirman 2",
-        "companyCode": "SMK",
-        "type": "Web",
-        "category": "Production",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Streamlined new student registration with digital form submission, document upload, and payment integration to reduce administrative workload during admission periods",
-        "images": [
-            "assets/img/proj/p_nda.webp"
-        ]
-    },
-    {
-        "id": 33,
-        "name": "Skolapay",
-        "company": "SMK Islam PB. Soedirman 2",
-        "companyCode": "SMK",
-        "type": "Web",
-        "category": "Production",
-        "tech": ["Bootstrap", "Laravel", "MySQL"],
-        "impact": "Secure tuition payment platform with transaction history, automated receipts, and financial reporting to simplify school fee management for parents and administrators",
-        "images": [
-            "assets/img/proj/p_nda.webp"
         ]
     }
 ]
