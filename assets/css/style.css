@@ -880,3 +880,111 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--brutal-black);
     color: var(--brutal-purple);
 }
+
+.sidebar-brutal {
+    background-color: var(--brutal-black) !important;
+    border-left: var(--brutal-border-thick);
+    width: 280px !important;
+}
+
+.border-bottom-brutal {
+    border-bottom: var(--brutal-border);
+}
+
+.font-mono {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.sidebar-link-brutal {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid #333;
+    transition: all 0.2s;
+}
+
+.sidebar-link-brutal:hover {
+    background: var(--brutal-yellow);
+    color: var(--brutal-black);
+}
+
+.navbar-brutal .btn:focus {
+    box-shadow: none;
+}
+
+.menu-toggle-brutal {
+    background: var(--brutal-yellow);
+    border: 3px solid var(--brutal-black);
+    box-shadow: 3px 3px 0px var(--brutal-black);
+    color: var(--brutal-black);
+    font-size: 1.8rem;
+    padding: 0 0.6rem;
+    transition: all 0.1s;
+}
+.menu-toggle-brutal:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.sidebar-brutal {
+    background: var(--brutal-white) !important;
+    border-left: var(--brutal-border-thick) !important;
+    width: 300px !important;
+}
+
+.brutal-header {
+    background: var(--brutal-black);
+    color: var(--brutal-yellow);
+    border-bottom: var(--brutal-border-thick);
+    border-radius: 0;
+    padding: 1.5rem;
+}
+
+.brutal-header .offcanvas-title {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.btn-close-brutal {
+    background: var(--brutal-pink);
+    border: 2px solid var(--brutal-black);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px 0 var(--brutal-black);
+}
+
+.sidebar-nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--brutal-black);
+    text-decoration: none;
+    padding: 1.5rem;
+    border-bottom: 2px solid var(--brutal-black);
+    transition: all 0.15s;
+}
+
+.sidebar-item:hover {
+    background: var(--brutal-yellow);
+    padding-left: 2.5rem; 
+    color: var(--brutal-black);
+}
+
+.sidebar-item:nth-child(even):hover {
+    background: var(--brutal-blue);
+}
+
+.sidebar-item:nth-child(3n):hover {
+    background: var(--brutal-pink);
+    color: white;
+}

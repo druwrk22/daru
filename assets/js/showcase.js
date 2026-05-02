@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     function loadProjects() {
         return $.ajax({
-            url: 'assets/js/projects.json',
+            url: 'assets/data/projects.json',
             type: 'GET',
             dataType: 'json',
             cache: false

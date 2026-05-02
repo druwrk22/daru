@@ -1,0 +1,35 @@
+.activity-card {
+    border: var(--brutal-border-thick);
+    box-shadow: var(--brutal-shadow);
+    background: white;
+    margin-bottom: 2rem;
+    transition: transform 0.2s;
+}
+.activity-img-container {
+    border-bottom: var(--brutal-border-thick);
+    overflow: hidden;
+}
+.activity-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.activity-caption {
+    padding: 1.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.activity-date {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    background: var(--brutal-yellow);
+    padding: 2px 8px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border: 2px solid #000;
+}
+.activity-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #000;
+    margin: 0;
+}

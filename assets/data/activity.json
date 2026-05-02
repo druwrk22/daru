@@ -1,0 +1,14 @@
+[
+    { "id": 1, "image": "assets/img/activity/act_1.webp" },
+    { "id": 2, "image": "assets/img/activity/act_2.webp" },
+    { "id": 3, "image": "assets/img/activity/act_3.webp" },
+    { "id": 4, "image": "assets/img/activity/act_4.webp" },
+    { "id": 5, "image": "assets/img/activity/act_5.webp" },
+    { "id": 6, "image": "assets/img/activity/act_6.webp" },
+    { "id": 7, "image": "assets/img/activity/act_7.webp" },
+    { "id": 8, "image": "assets/img/activity/act_8.webp" },
+    { "id": 9, "image": "assets/img/activity/act_9.webp" },
+    { "id": 10, "image": "assets/img/activity/act_10.webp" },
+    { "id": 11, "image": "assets/img/activity/act_11.webp" },
+    { "id": 12, "image": "assets/img/activity/act_12.webp" }
+]

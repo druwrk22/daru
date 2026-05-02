@@ -13,9 +13,14 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar-brutal">
-        <div class="container d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
             <a class="navbar-brand-brutal" href="#">ANDARU</a>
-            <div class="ms-auto d-flex flex-wrap justify-content-end">
+            
+            <button class="menu-toggle-brutal d-lg-none ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMobile">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <div class="ms-auto d-none d-lg-flex flex-wrap justify-content-end">
                 <a class="nav-link-brutal" href="#about">About</a>
                 <a class="nav-link-brutal" href="#skills">Skills</a>
                 <a class="nav-link-brutal" href="#experience">Experience</a>
@@ -27,14 +32,35 @@
         </div>
     </nav>
 
+    <!-- SIDEBAR MOBILE (OFFCANVAS) -->
+    <div class="offcanvas offcanvas-end sidebar-brutal" tabindex="-1" id="sidebarMobile">
+        <div class="offcanvas-header brutal-header">
+            <h5 class="offcanvas-title">MENU</h5>
+            <button type="button" class="btn-close-brutal ms-auto" data-bs-dismiss="offcanvas">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <div class="sidebar-nav-list">
+                <a class="sidebar-item" href="#about" data-bs-dismiss="offcanvas">ABOUT</a>
+                <a class="sidebar-item" href="#skills" data-bs-dismiss="offcanvas">SKILLS</a>
+                <a class="sidebar-item" href="#experience" data-bs-dismiss="offcanvas">EXPERIENCE</a>
+                <a class="sidebar-item" href="#projects" data-bs-dismiss="offcanvas">PROJECTS</a>
+                <a class="sidebar-item" href="showcase.html">SHOW CASE</a>
+                <a class="sidebar-item" href="activity.html">ACTIVITY</a>
+                <a class="sidebar-item" href="#contact" data-bs-dismiss="offcanvas">CONTACT</a>
+            </div>
+        </div>
+    </div>
+
     <!-- HERO -->
     <section class="hero-brutal">
         <div class="container text-center">
+            <div style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">WELCOME TO MY SPACE</div>
             <h1 class="name-brutal">ANDARU</h1>
-            <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">
-                • PROGRAMMER • FULLSTACK DEVELOPER • BUSINESS ANALYST
+            <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;" class="mb-5">
+                PROGRAMMER | FULLSTACK DEVELOPER | BUSINESS ANALYST
             </div>
-            <div style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">Last Update: 19 APR 2026</div>
             <a class="badge-dw" href="https://drive.google.com/file/d/1xAvFxJU3syG6tcIcbal-VlFQpMtquetU/view?usp=sharing">RESUME V3.3</a>&nbsp;
             <a class="badge-dx" href="https://drive.google.com/file/d/1WkQbVHbXdDjiH0izExC13le5XQPKpaS4/view?usp=sharing">PORTFOLIO V9.5</a>
             <p style="font-size: 1.1rem; max-width: 700px; margin: 2rem auto 0;">
